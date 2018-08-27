@@ -25,7 +25,7 @@ For running the project you just have to go to the following URL: https://jsmill
 Juan Sebastián Millán Lejarde - 201516818 - js.millan10
 
 ### Screenshot
-![Screenshot](img/screenshot.png)
+![Screenshot](img/screenshot.PNG)
 
 ### MIT License
 
