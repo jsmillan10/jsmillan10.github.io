@@ -18,7 +18,7 @@ The principal objective of the creation of this project is to improve my skills 
 
 ### How to run the project
 
-For running the project you just have to go to the following URL: https://jsmillan10.github.io/SebasWebPage/ , or you can clone the project and deploy it locally using the http-server tool.
+For running the project you just have to go to the following URL: https://jsmillan10.github.io/ , or you can clone the project and deploy it locally using the http-server tool.
 
 ### Author
 
