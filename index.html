@@ -16,9 +16,10 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/skills.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/animate.css">
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target="#nav" data-offset="50">
 <div>
   <!--Sección Navbar-->
   <div class="container-fluid fixed-top">
@@ -38,7 +39,7 @@
   <div id="contenedor_perfil" class="container-fluid">
     <div id="jumbo_titulo" class="jumbotron text-center">
       <div id="row_perfil" class="row">
-        <div id="texto_perfil" class="col-7">
+        <div id="texto_perfil" class="col-7 wow pulse" data-wow-iteration="2">
           <h1 class="titulo_grande">Juan Sebastián Millán L</h1>
           <p class="subtitulo">Systems and Computing Engineering <br>Entrepreneur and Innovator</p>
           <p>
@@ -53,13 +54,13 @@
   <div id="contenedor_about_me" class="container-fluid">
     <div id="jumbo_aboutme" class="jumbotron">
       <h2>About Me</h2>
-      <div id="subitulos_aboutme" class="row">
+      <div id="subitulos_aboutme" class="row wow fadeIn">
         <h3 class="col-4">My Life</h3>
         <h3 class="col-4">My Education</h3>
         <h3 class="col-4">My Hobbies</h3>
       </div>
       <div class="card-columns">
-        <div class="card border-secondary">
+        <div class="card border-secondary wow fadeInUp">
           <div class="card-header">
             <h5>Childhood</h5>
           </div>
@@ -69,7 +70,7 @@
               sorrounding me and learning from them all the time.</p>
           </div>
         </div>
-        <div class="card border-secondary">
+        <div class="card border-secondary wow fadeInUp">
           <div class="card-header">
             <h5>Adolescence</h5>
           </div>
@@ -79,13 +80,13 @@
               my studies and learn how is the life in the capital city.</p>
           </div>
         </div>
-        <div class="card text-center text-white bg-secondary p-3">
+        <div class="card text-center text-white bg-secondary p-3 wow fadeInUp">
           <p class="card-text">I'm working to explore the feeling of been in another culture outside of my country.</p>
           <p class="card-text">
             <small class="text-muted update">Maybe France or Switzerland</small>
           </p>
         </div>
-        <div class="card border-secondary">
+        <div class="card border-secondary wow fadeInUp">
           <div class="card-header">
             <h5>Primary</h5>
           </div>
@@ -98,7 +99,7 @@
               the importance of studying and been an applied person.</p>
           </div>
         </div>
-        <div class="card border-secondary">
+        <div class="card border-secondary wow fadeInUp">
           <div class="card-header">
             <h5>High School</h5>
           </div>
@@ -111,7 +112,7 @@
               friends, the importance of working and being respectful with others</p>
           </div>
         </div>
-        <div class="card border-secondary">
+        <div class="card border-secondary wow fadeInUp">
           <div class="card-header">
             <h5>Undergraduate</h5>
           </div>
@@ -123,7 +124,7 @@
             make a double emphasis with business administration in entrepreneurship, and french language and culture.</p>
           </div>
         </div>
-        <div class="card border-secondary">
+        <div class="card border-secondary wow fadeInUp">
           <div class="card-header">
             <h5>Sports</h5>
           </div>
@@ -133,7 +134,7 @@
               I also enjoy a lot dancing, going to the gym and making exercise in general.</p>
           </div>
         </div>
-        <div class="card text-center text-white bg-info p-3">
+        <div class="card text-center text-white bg-info p-3 wow fadeInUp">
           <p class="card-text">I also enjoy traveling around the world, reading, laughing, hanging out with my friends
             and family, and smiling as far as I can.</p>
           <p class="card-text">
@@ -285,13 +286,13 @@
     <div id="jumbo_skills" class="jumbotron">
       <h2 id="subtitulo_skills">Technical Skills</h2>
       <div class="container_progress">
-        <div class="row">
+        <div class="row wow fadeIn">
           <h3 class="subtitulos_skills col-4">Java</h3>
           <h3 class="subtitulos_skills col-4">SQL</h3>
           <h3 class="subtitulos_skills col-4">HTML5</h3>
         </div>
         <div class="row">
-          <div class="col-4">
+          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
             <div class="progress blue">
                 <span class="progress-left">
                     <span class="progress-bar"></span>
@@ -302,7 +303,7 @@
               <div class="progress-value">90%</div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
             <div class="progress green">
                 <span class="progress-left">
                     <span class="progress-bar"></span>
@@ -313,7 +314,7 @@
               <div class="progress-value">80%</div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
             <div class="progress yellow">
                 <span class="progress-left">
                     <span class="progress-bar"></span>
@@ -326,13 +327,13 @@
           </div>
         </div>
         <div id="separador" class="row"></div>
-        <div class="row">
+        <div class="row wow fadeIn">
           <h3 class="subtitulos_skills col-4">CSS</h3>
           <h3 class="subtitulos_skills col-4">Python</h3>
           <h3 class="subtitulos_skills col-4">Javascript</h3>
         </div>
         <div class="row">
-          <div class="col-4">
+          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
             <div class="progress pink">
                 <span class="progress-left">
                     <span class="progress-bar"></span>
@@ -343,7 +344,7 @@
               <div class="progress-value">60%</div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
             <div class="progress grey">
                 <span class="progress-left">
                     <span class="progress-bar"></span>
@@ -354,7 +355,7 @@
               <div class="progress-value">50%</div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
             <div class="progress purple">
                 <span class="progress-left">
                     <span class="progress-bar"></span>
@@ -467,22 +468,22 @@
     <div id="jumbo_contact" class="jumbotron">
       <h2 id="h2_contact">Contact Me</h2>
       <div class="row">
-        <a class="col-2 hvr-icon-pulse-grow" href="https://www.facebook.com/sebastian.millanlejarde">
+        <a class="col-2 hvr-icon-pulse-grow wow flipInX" href="https://www.facebook.com/sebastian.millanlejarde">
           <img class="hvr-icon" height="75%" width="75%" src="img/facebook.svg">
         </a>
-        <a class="col-2 hvr-icon-pulse-grow" href="https://twitter.com/MillanSebas">
+        <a class="col-2 hvr-icon-pulse-grow wow flipInX" href="https://twitter.com/MillanSebas">
           <img class="hvr-icon" height="75%" width="75%" src="img/twitter.svg">
         </a>
-        <a class="col-2 hvr-icon-pulse-grow" href="https://github.com/jsmillan10">
+        <a class="col-2 hvr-icon-pulse-grow wow flipInX" href="https://github.com/jsmillan10">
           <img class="hvr-icon" height="75%" width="75%" src="img/github.svg">
         </a>
-        <a class="col-2 hvr-icon-pulse-grow" href="mailto:js.millan10@uniandes.edu.co?">
+        <a class="col-2 hvr-icon-pulse-grow wow flipInX" href="mailto:js.millan10@uniandes.edu.co?">
           <img class="hvr-icon" height="75%" width="75%" src="img/mail.svg">
         </a>
-        <a class="col-2 hvr-icon-pulse-grow" href="https://www.instagram.com/sebas1120">
+        <a class="col-2 hvr-icon-pulse-grow wow flipInX" href="https://www.instagram.com/sebas1120">
           <img class="hvr-icon" height="75%" width="75%" src="img/instagram.svg">
         </a>
-        <a class="col-2 hvr-icon-pulse-grow" href="https://www.linkedin.com/in/sebasti%C3%A1n-millan/">
+        <a class="col-2 hvr-icon-pulse-grow wow flipInX" href="https://www.linkedin.com/in/sebasti%C3%A1n-millan/">
           <img class="hvr-icon" height="75%" width="75%" src="img/linkedin.svg">
         </a>
       </div>
@@ -505,6 +506,10 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 <script>
   var scroll = new SmoothScroll('a[href*="#"]');
 </script>

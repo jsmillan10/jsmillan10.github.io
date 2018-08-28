@@ -15,6 +15,7 @@ function myFunction() {
   if ((window.pageYOffset+30)>medida)
   {
     navNombre.classList.remove("invisible");
+    navNombre.classList.add("wow fadeIn");
   }
   else
     navNombre.classList.add("invisible");
@@ -45,5 +46,3 @@ $(function() {
     });
   });
 });
-
-

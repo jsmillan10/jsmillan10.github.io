@@ -87,8 +87,8 @@ a .nav-item {
 
 .card-columns{
   column-gap: 1.25rem;
-  orphans: 2;
-  widows: 2;
+  orphans: 1;
+  widows: 1;
 }
 
 .info_projects{
