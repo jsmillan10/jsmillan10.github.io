@@ -1,497 +1,575 @@
 <!doctype html>
 <html class="no-js" lang="">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Mi perfil</title>
-  <!-- Place favicon.ico in the root directory -->
-  <link href="css/hover.css" rel="stylesheet" media="all">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/time_line.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/skills.css">
-  <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="css/animate.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mi perfil</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/time_line.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body id="myPage" data-spy="scroll" data-target="#nav" data-offset="50">
 <div>
-  <!--Sección Navbar-->
-  <div class="container-fluid fixed-top">
-    <div class="row">
-      <nav id="navbar_home" class="nav navbar-light">
-        <a id="nombre_nav" class="invisible col-6 navbar-brand hvr-underline-from-center" href="#contenedor_perfil">Sebastián
-          Millán</a>
-        <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_about_me">About Me</a>
-        <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_timeline">Life Experience</a>
-        <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_skills">Technical Skills</a>
-        <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_projects">Projects</a>
-        <a class="nav-item nav-link hvr-underline-from-center" href="#contenedor_contact">Contact</a>
-      </nav>
+    <!--Sección Navbar-->
+    <div>
+        <div>
+            <nav id="fila-flex" class="nav navbar fixed-top navbar-expand-lg navbar-dark">
+                <a id="nombre_nav" class="invisible navbar-brand hvr-underline-from-center letra-blanca" href="#">Sebastián
+                    Millán</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul id="fila-nav" class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center letra-blanca" href="#contenedor_about_me">About
+                                Me</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center letra-blanca" href="#contenedor_timeline">Life
+                                Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center letra-blanca" href="#contenedor_skills">Technical
+                                Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center letra-blanca" href="#contenedor_projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center letra-blanca" href="#contenedor_contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
-  </div>
-  <!--Sección Perfil-->
-  <div id="contenedor_perfil" class="container-fluid">
-    <div id="jumbo_titulo" class="jumbotron text-center">
-      <div id="row_perfil" class="row">
-        <div id="texto_perfil" class="col-7 wow pulse" data-wow-iteration="2">
-          <h1 class="titulo_grande">Juan Sebastián Millán L</h1>
-          <p class="subtitulo">Systems and Computing Engineering <br>Entrepreneur and Innovator</p>
-          <p>
-            <a href="#contenedor_about_me" class="btn btn-lg btn-secondary">Learn more</a>
-          </p>
+    <!--Sección Perfil-->
+    <div id="contenedor_perfil" class="container-fluid">
+        <div id="jumbo_titulo" class="jumbotron text-center">
+            <div id="row_perfil" class="fila">
+                <div id="texto_perfil" class="wow pulse" data-wow-iteration="2">
+                    <h1 class="titulo_grande">Juan Sebastián Millán L</h1>
+                    <p class="subtitulo">Systems and Computing Engineering <br>Entrepreneur and Innovator</p>
+                    <p>
+                        <a href="#contenedor_about_me" class="btn btn-lg btn-secondary">Learn more</a>
+                    </p>
+                </div>
+                <img id="imagen_perfil" class="col-5 img-responsive" src="img/monserrate2.jpeg" alt="Foto Inicio">
+            </div>
         </div>
-        <img id="imagen_perfil" class="col-5 img-responsive" src="img/monserrate2.jpeg" alt="Foto Inicio">
-      </div>
     </div>
-  </div>
-  <!--Sección About me-->
-  <div id="contenedor_about_me" class="container-fluid">
-    <div id="jumbo_aboutme" class="jumbotron">
-      <h2>About Me</h2>
-      <div id="subitulos_aboutme" class="row wow fadeIn">
-        <h3 class="col-4">My Life</h3>
-        <h3 class="col-4">My Education</h3>
-        <h3 class="col-4">My Hobbies</h3>
-      </div>
-      <div class="card-columns">
-        <div class="card border-secondary wow fadeInUp">
-          <div class="card-header">
-            <h5>Childhood</h5>
-          </div>
-          <img class="card-img-top" src="img/bucaramanga.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">I was born in Bucaramanga city and I lived there 11 years with all my family
-              sorrounding me and learning from them all the time.</p>
-          </div>
+    <!--Sección About me-->
+    <div id="contenedor_about_me" class="container-fluid">
+        <h2>About Me</h2>
+        <div id="jumbo_aboutme" class="jumbotron-tarjetas">
+            <div class="columna-flex">
+                <h3>My Life</h3>
+                <div class="card tarjeta border-secondary wow fadeInUp">
+                    <div class="card-header">
+                        <h5>Childhood</h5>
+                    </div>
+                    <img class="card-img-top" src="img/bucaramanga.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">I was born in Bucaramanga city and I lived there 11 years with all my
+                            family
+                            sorrounding me and learning from them all the time.</p>
+                    </div>
+                </div>
+                <div class="card tarjeta border-secondary wow fadeInUp">
+                    <div class="card-header">
+                        <h5>Adolescence</h5>
+                    </div>
+                    <img class="card-img-top" src="img/bogota.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">When I was 12 years, I went to Bogotá with my parents and my brother to
+                            continue
+                            my studies and learn how is the life in the capital city.</p>
+                    </div>
+                </div>
+                <div class="card tarjeta text-center text-white bg-secondary p-3 wow fadeInUp">
+                    <p class="card-text">I'm working to explore the feeling of been in another culture outside of my
+                        country.</p>
+                    <p class="card-text">
+                        <small class="text-muted update">Maybe France or Switzerland</small>
+                    </p>
+                </div>
+            </div>
+            <div class="columna-flex">
+                <h3>My Education</h3>
+                <div class="card tarjeta border-secondary wow fadeInUp">
+                    <div class="card-header">
+                        <h5>Primary</h5>
+                    </div>
+                    <a class="card-img-top" href="http://www.comfenalcosantander.com.co/#">
+                        <img id="comfenalco" src="img/comfenalco.jpg" alt="Colgio primario">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">I make my primary education in Comfenalco school in Bucaramanga. There I
+                            start to
+                            understand
+                            the importance of studying and been an applied person.</p>
+                    </div>
+                </div>
+                <div class="card tarjeta border-secondary wow fadeInUp">
+                    <div class="card-header">
+                        <h5>High School</h5>
+                    </div>
+                    <a class="card-img-top" href="http://gimnasiohontanar.edu.co/index.php/es/">
+                        <img id="hontanar" src="img/hontanar.jpg" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">I make all my high school at Gimnasio el Hontanar. In this college I start
+                            to feel what
+                            is to have
+                            friends, the importance of working and being respectful with others</p>
+                    </div>
+                </div>
+                <div class="card tarjeta border-secondary wow fadeInUp">
+                    <div class="card-header">
+                        <h5>Undergraduate</h5>
+                    </div>
+                    <a class="card-img-top" href="https://uniandes.edu.co/">
+                        <img id="imagen_andes" src="img/andes.png" alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">Nowadays, I'm a student at Universidad de los Andes. I'm studying Systems
+                            and Computing Engineering and I also
+                            make a double emphasis with business administration in entrepreneurship, and french language
+                            and culture.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="columna-flex">
+                <h3>My Hobbies</h3>
+                <div class="card tarjeta border-secondary wow fadeInUp">
+                    <div class="card-header">
+                        <h5>Sports</h5>
+                    </div>
+                    <img class="card-img-top" src="img/sports.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">I love to play and practice tennis and soccer since I was a child at
+                            school.
+                            I also enjoy a lot dancing, going to the gym and making exercise in general.</p>
+                    </div>
+                </div>
+                <div class="card tarjeta text-center text-white bg-info p-3 wow fadeInUp">
+                    <p class="card-text">I also enjoy traveling around the world, reading, laughing, hanging out with my
+                        friends
+                        and family, and smiling as far as I can.</p>
+                    <p class="card-text">
+                        <small class="text-muted update">Happiness is the most important thing in my life.</small>
+                    </p>
+                </div>
+                <div class="card tarjeta border-secondary">
+                    <div class="card-header">
+                        <h5>Music</h5>
+                    </div>
+                    <img class="card-img-top" src="img/piano.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">I'm a music lover. I enjoy to listen almost every genre,
+                            go to concerts of my favorite artists and playing piano whenever I can.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card border-secondary wow fadeInUp">
-          <div class="card-header">
-            <h5>Adolescence</h5>
-          </div>
-          <img class="card-img-top" src="img/bogota.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">When I was 12 years, I went to Bogotá with my parents and my brother to continue
-              my studies and learn how is the life in the capital city.</p>
-          </div>
-        </div>
-        <div class="card text-center text-white bg-secondary p-3 wow fadeInUp">
-          <p class="card-text">I'm working to explore the feeling of been in another culture outside of my country.</p>
-          <p class="card-text">
-            <small class="text-muted update">Maybe France or Switzerland</small>
-          </p>
-        </div>
-        <div class="card border-secondary wow fadeInUp">
-          <div class="card-header">
-            <h5>Primary</h5>
-          </div>
-          <a class="card-img-top" href="http://www.comfenalcosantander.com.co/#">
-            <img id="comfenalco" src="img/comfenalco.jpg" alt="Colgio primario">
-          </a>
-            <div class="card-body">
-            <p class="card-text">I make my primary education in Comfenalco school in Bucaramanga. There I start to
-              understand
-              the importance of studying and been an applied person.</p>
-          </div>
-        </div>
-        <div class="card border-secondary wow fadeInUp">
-          <div class="card-header">
-            <h5>High School</h5>
-          </div>
-          <a class="card-img-top" href="http://gimnasiohontanar.edu.co/index.php/es/">
-          <img id="hontanar" src="img/hontanar.jpg" alt="Card image cap">
-          </a>
-          <div class="card-body">
-            <p class="card-text">I make all my high school at Gimnasio el Hontanar. In this college I start to feel what
-              is to have
-              friends, the importance of working and being respectful with others</p>
-          </div>
-        </div>
-        <div class="card border-secondary wow fadeInUp">
-          <div class="card-header">
-            <h5>Undergraduate</h5>
-          </div>
-          <a class="card-img-top" href="https://uniandes.edu.co/">
-            <img id="imagen_andes" src="img/andes.png" alt="Card image cap">
-          </a>
-            <div class="card-body">
-            <p class="card-text">Nowadays, I'm a student at Universidad de los Andes. I'm studying Systems and Computing Engineering and I also
-            make a double emphasis with business administration in entrepreneurship, and french language and culture.</p>
-          </div>
-        </div>
-        <div class="card border-secondary wow fadeInUp">
-          <div class="card-header">
-            <h5>Sports</h5>
-          </div>
-          <img class="card-img-top" src="img/sports.png" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">I love to play and practice tennis and soccer since I was a child at school.
-              I also enjoy a lot dancing, going to the gym and making exercise in general.</p>
-          </div>
-        </div>
-        <div class="card text-center text-white bg-info p-3 wow fadeInUp">
-          <p class="card-text">I also enjoy traveling around the world, reading, laughing, hanging out with my friends
-            and family, and smiling as far as I can.</p>
-          <p class="card-text">
-            <small class="text-muted update">Happiness is the most important thing in my life.</small>
-          </p>
-        </div>
-        <div class="card border-secondary">
-          <div class="card-header">
-            <h5>Music</h5>
-          </div>
-          <img class="card-img-top" src="img/piano.jpg" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">I'm a music lover. I enjoy to listen almost every genre,
-              go to concerts of my favorite artists and playing piano whenever I can.</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <!--Sección Timeline-->
-  <div id="contenedor_timeline" class="container-fluid">
+</div>
+<!--Sección Timeline-->
+<div id="contenedor_timeline" class="container-fluid">
     <div id="jumbo_timeline" class="jumbotron">
-      <h2 id="subtitulo_timeline">Life Experience</h2>
-      <div id="container">
-        <div id="thumbs">
-          <div class="history-block bg-66">
-            <div class="cover"></div>
-            <div class="year">Childhood</div>
-            <div id="texto1" class="title">Since I was a kid I always like studying specially if the subject was math. That's why I obtain
-              the honor roll each year since 2nd grade to 5th grade. I also receive a lot of medals for being a respectful and
-              an applied kid. <br> In this period of my life I was starting to get used to life with all my family in Bucaramanga city,
-              but the road change and I had to go to Bogotá to continue my studies. This was such a radical change for me and my family
-              because we lose all our friends, we change the school and we start again in the capital city.
-            </div>
-            <div class="timeline">
-              <ul>
-                <li><a href="" class="timelineYear">1997</a></li>
-                <li><a href="" class="timelineYear">1998</a></li>
-                <li><a href="" class="timelineYear">1999</a></li>
-                <li><a href="" class="timelineYear">2000</a></li>
-                <li><a href="" class="timelineYear">2001</a></li>
-                <li><a href="" class="timelineYear">2002</a></li>
-                <li><a href="" class="timelineYear">2003</a></li>
-                <li><a href="" class="timelineYear">2004</a></li>
-                <!--<li><a href="" class="timelineYear">1974</a></li>-->
-                <!--<li><a href="" class="timelineYear">1975</a></li>-->
-                <!--<li><a href="" class="timelineYear">1976</a></li>-->
-              </ul>
-            </div>
-          </div>
-          <div class="history-block bg-76">
-            <div class="cover"></div>
-            <div class="year">Elementary School</div>
-            <div class="title">When I arrived to Bogotá I enter to Jose Eustasio Rivera school to make 5th grade. That was a period of
-              my life in which I start to adapt to the culture of a capital city and also to understand the different attitudes from
-              the people that were around me. In this period I start to learn english and with the time and practice I improve it until I
-              was capable of talking with the rest of my friends how start to learn the language since they were babys.
-            </div>
-            <div class="timeline">
-              <ul>
-                <li><a href="" class="timelineYear">2005</a></li>
-                <li><a href="" class="timelineYear">2006</a></li>
-                <li><a href="" class="timelineYear">2007</a></li>
-                <li><a href="" class="timelineYear">2008</a></li>
-                <!--<li><a href="" class="timelineYear"></a></li>-->
-                <!--<li><a href="" class="timelineYear">1981</a></li>-->
-                <!--<li><a href="" class="timelineYear">1982</a></li>-->
-                <!--<li><a href="" class="timelineYear">1983</a></li>-->
-                <!--<li><a href="" class="timelineYear">1984</a></li>-->
-                <!--<li><a href="" class="timelineYear">1985</a></li>-->
-                <!--<li><a href="" class="timelineYear">1986</a></li>-->
-              </ul>
-            </div>
-          </div>
-          <div class="history-block bg-86">
-            <div class="cover"></div>
-            <div class="year">HighSchool</div>
-            <div class="title">In 5th grade my school was destroy and my parents put my brother and me in the Gimnasio el Hontanar school.
-              There I passed a lot of great moments with my new friends. This college wasn't too recognize in that moment and it had
-              a bad infrastructure, but the teachers were as good as a high-profile one. <br> In this part of my life I start to work with my
-              parents at our enterprise called Rol Positivo. In this place I start working as a typesetter in a accounting software,
-              then as the person who authorized the laboratory bills in Saludvida EPS software, and finally as a software developer with the creation
-              of a helpdesk for the institution. This was also my 11th grade thesis and I make it possible with the help of a lot of systems engineers professionals that
-              help me a lot. They also show me all the possibilities of the career and in that moment I decided to study Computer science.<br>Before graduating I start to prepare for the ICFES exam with a series of courses delivered by the national university. Then
-              I make the test and I received the 7th position of my group. This was the moment in which I start to search the best universities in Colombia.
-            </div>
-            <div class="timeline">
-              <ul>
-                <li><a href="" class="timelineYear">2009</a></li>
-                <li><a href="" class="timelineYear">2010</a></li>
-                <li><a href="" class="timelineYear">2011</a></li>
-                <li><a href="" class="timelineYear">2012</a></li>
-                <li><a href="" class="timelineYear">2013</a></li>
-                <li><a href="" class="timelineYear">2014</a></li>
-                <!--<li><a href="" class="timelineYear">1992</a></li>-->
-                <!--<li><a href="" class="timelineYear">1993</a></li>-->
-                <!--<li><a href="" class="timelineYear">1994</a></li>-->
-                <!--<li><a href="" class="timelineYear">1995</a></li>-->
-                <!--<li><a href="" class="timelineYear">1996</a></li>-->
-              </ul>
-            </div>
-          </div>
-          <div class="history-block bg-96">
-            <div class="cover"></div>
-            <div class="year">University</div>
-            <div class="title">Before entering to the college, I decided to start to learn french so I ingress to the Allianza francesa for an entire semester.
-              I also began to work in the administration of a sugar CRM for the enterprise and in my free time I spent all my hours learning piano. Then I entered to Andes university
-              with the feeling that it was going to be similar to the school but I crashed badly. However, I was never thinking in giving up, so I start to change my habits of studying.
-              In the U I had the opportunity to be 2 times teaching assistant, to continue my studies in french, and to start to get interests in entrepreneurship. I also
-              make a lot of projects each semester to improve in programming languages and designing capabilities.
+        <h2 id="subtitulo_timeline">Life Experience</h2>
+        <div id="container">
+            <div id="thumbs">
+                <div class="history-block bg-66">
+                    <div class="cover"></div>
+                    <div class="year">Childhood</div>
+                    <div id="texto1" class="title">Since I was a kid I always like studying specially if the subject
+                        was math. That's why I obtain
+                        the honor roll each year since 2nd grade to 5th grade. I also receive a lot of medals for
+                        being a respectful and
+                        an applied kid. <br> In this period of my life I was starting to get used to life with all
+                        my family in Bucaramanga city,
+                        but the road change and I had to go to Bogotá to continue my studies. This was such a
+                        radical change for me and my family
+                        because we lose all our friends, we change the school and we start again in the capital
+                        city.
+                    </div>
+                    <div class="timeline">
+                        <ul>
+                            <li><a href="" class="timelineYear">1997</a></li>
+                            <li><a href="" class="timelineYear">1998</a></li>
+                            <li><a href="" class="timelineYear">1999</a></li>
+                            <li><a href="" class="timelineYear">2000</a></li>
+                            <li><a href="" class="timelineYear">2001</a></li>
+                            <li><a href="" class="timelineYear">2002</a></li>
+                            <li><a href="" class="timelineYear">2003</a></li>
+                            <li><a href="" class="timelineYear">2004</a></li>
+                            <!--<li><a href="" class="timelineYear">1974</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1975</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1976</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="history-block bg-76">
+                    <div class="cover"></div>
+                    <div class="year">Elementary School</div>
+                    <div class="title">When I arrived to Bogotá I enter to Jose Eustasio Rivera school to make 5th
+                        grade. That was a period of
+                        my life in which I start to adapt to the culture of a capital city and also to understand
+                        the different attitudes from
+                        the people that were around me. In this period I start to learn english and with the time
+                        and practice I improve it until I
+                        was capable of talking with the rest of my friends how start to learn the language since
+                        they were babys.
+                    </div>
+                    <div class="timeline">
+                        <ul>
+                            <li><a href="" class="timelineYear">2005</a></li>
+                            <li><a href="" class="timelineYear">2006</a></li>
+                            <li><a href="" class="timelineYear">2007</a></li>
+                            <li><a href="" class="timelineYear">2008</a></li>
+                            <!--<li><a href="" class="timelineYear"></a></li>-->
+                            <!--<li><a href="" class="timelineYear">1981</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1982</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1983</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1984</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1985</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1986</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="history-block bg-86">
+                    <div class="cover"></div>
+                    <div class="year">HighSchool</div>
+                    <div class="title">In 5th grade my school was destroy and my parents put my brother and me in
+                        the Gimnasio el Hontanar school.
+                        There I passed a lot of great moments with my new friends. This college wasn't too recognize
+                        in that moment and it had
+                        a bad infrastructure, but the teachers were as good as a high-profile one. <br> In this part
+                        of my life I start to work with my
+                        parents at our enterprise called Rol Positivo. In this place I start working as a typesetter
+                        in a accounting software,
+                        then as the person who authorized the laboratory bills in Saludvida EPS software, and
+                        finally as a software developer with the creation
+                        of a helpdesk for the institution. This was also my 11th grade thesis and I make it possible
+                        with the help of a lot of systems engineers professionals that
+                        help me a lot. They also show me all the possibilities of the career and in that moment I
+                        decided to study Computer science.<br>Before graduating I start to prepare for the ICFES
+                        exam with a series of courses delivered by the national university. Then
+                        I make the test and I received the 7th position of my group. This was the moment in which I
+                        start to search the best universities in Colombia.
+                    </div>
+                    <div class="timeline">
+                        <ul>
+                            <li><a href="" class="timelineYear">2009</a></li>
+                            <li><a href="" class="timelineYear">2010</a></li>
+                            <li><a href="" class="timelineYear">2011</a></li>
+                            <li><a href="" class="timelineYear">2012</a></li>
+                            <li><a href="" class="timelineYear">2013</a></li>
+                            <li><a href="" class="timelineYear">2014</a></li>
+                            <!--<li><a href="" class="timelineYear">1992</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1993</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1994</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1995</a></li>-->
+                            <!--<li><a href="" class="timelineYear">1996</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="history-block bg-96">
+                    <div class="cover"></div>
+                    <div class="year">University</div>
+                    <div class="title">Before entering to the college, I decided to start to learn french so I
+                        ingress to the Allianza francesa for an entire semester.
+                        I also began to work in the administration of a sugar CRM for the enterprise and in my free
+                        time I spent all my hours learning piano. Then I entered to Andes university
+                        with the feeling that it was going to be similar to the school but I crashed badly. However,
+                        I was never thinking in giving up, so I start to change my habits of studying.
+                        In the U I had the opportunity to be 2 times teaching assistant, to continue my studies in
+                        french, and to start to get interests in entrepreneurship. I also
+                        make a lot of projects each semester to improve in programming languages and designing
+                        capabilities.
 
+                    </div>
+                    <div class="timeline">
+                        <ul>
+                            <li><a href="" class="timelineYear">2014</a></li>
+                            <li><a href="" class="timelineYear">2015</a></li>
+                            <li><a href="" class="timelineYear">2016</a></li>
+                            <li><a href="" class="timelineYear">2017</a></li>
+                            <li><a href="" class="timelineYear">2018</a></li>
+                            <!--<li><a href="" class="timelineYear">2000</a></li>-->
+                            <!--<li><a href="" class="timelineYear">2001</a></li>-->
+                            <!--<li><a href="" class="timelineYear">2002</a></li>-->
+                            <!--<li><a href="" class="timelineYear">2003</a></li>-->
+                            <!--<li><a href="" class="timelineYear">2004</a></li>-->
+                            <!--<li><a href="" class="timelineYear">2005</a></li>-->
+                            <!--<li><a href="" class="timelineYear">2006</a></li>-->
+                        </ul>
+                    </div>
+                </div>
+                <div class="history-block bg-16">
+                    <div class="cover"></div>
+                    <div class="year">Future</div>
+                    <div class="title">Actually, I'm in 7th semester of my career, I'm about to finish my both
+                        emphasis. <br>
+                        I'm developing two projects with a great team work that I meet few months ago. <br>
+                        I have a lot of goals that I'm working to achieve soon. <br>
+                        I have a lot of friends in my life and I keep looking up because I know that everything is
+                        possible with effort, positivism and attitude.
+                        Let the time decide the rest.
+                    </div>
+                    <div class="timeline">
+                        To our bright future!!!
+                    </div>
+                </div>
             </div>
-            <div class="timeline">
-              <ul>
-                <li><a href="" class="timelineYear">2014</a></li>
-                <li><a href="" class="timelineYear">2015</a></li>
-                <li><a href="" class="timelineYear">2016</a></li>
-                <li><a href="" class="timelineYear">2017</a></li>
-                <li><a href="" class="timelineYear">2018</a></li>
-                <!--<li><a href="" class="timelineYear">2000</a></li>-->
-                <!--<li><a href="" class="timelineYear">2001</a></li>-->
-                <!--<li><a href="" class="timelineYear">2002</a></li>-->
-                <!--<li><a href="" class="timelineYear">2003</a></li>-->
-                <!--<li><a href="" class="timelineYear">2004</a></li>-->
-                <!--<li><a href="" class="timelineYear">2005</a></li>-->
-                <!--<li><a href="" class="timelineYear">2006</a></li>-->
-              </ul>
-            </div>
-          </div>
-          <div class="history-block bg-16">
-            <div class="cover"></div>
-            <div class="year">Future</div>
-            <div class="title">Actually, I'm in 7th semester of my career, I'm about to finish my both emphasis. <br>
-              I'm developing two projects with a great team work that I meet few months ago. <br>
-              I have a lot of goals that I'm working to achieve soon. <br>
-              I have a lot of friends in my life and I keep looking up because I know that everything is possible with effort, positivism and attitude.
-              Let the time decide the rest.
-            </div>
-            <div class="timeline">
-              To our bright future!!!
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!--Sección skills-->
-  <div id="contenedor_skills" class="container-fluid">
+</div>
+<!--Sección skills-->
+<div id="contenedor_skills" class="container-fluid">
     <div id="jumbo_skills" class="jumbotron">
-      <h2 id="subtitulo_skills">Technical Skills</h2>
-      <div class="container_progress">
-        <div class="row wow fadeIn">
-          <h3 class="subtitulos_skills col-4">Java</h3>
-          <h3 class="subtitulos_skills col-4">SQL</h3>
-          <h3 class="subtitulos_skills col-4">HTML5</h3>
+        <h2 id="subtitulo_skills">Technical Skills</h2>
+        <div class="container_progress">
+            <div class="row wow fadeIn">
+                <h3 class="subtitulos_skills col-4">Java</h3>
+                <h3 class="subtitulos_skills col-4">SQL</h3>
+                <h3 class="subtitulos_skills col-4">HTML5</h3>
+            </div>
+            <div class="row">
+                <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
+                    <div class="progress blue">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">90%</div>
+                    </div>
+                </div>
+                <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
+                    <div class="progress green">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">80%</div>
+                    </div>
+                </div>
+                <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
+                    <div class="progress yellow">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">75%</div>
+                    </div>
+                </div>
+            </div>
+            <div id="separador" class="row"></div>
+            <div class="row wow fadeIn">
+                <h3 class="subtitulos_skills col-4">CSS</h3>
+                <h3 class="subtitulos_skills col-4">Python</h3>
+                <h3 class="subtitulos_skills col-4">Javascript</h3>
+            </div>
+            <div class="row">
+                <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
+                    <div class="progress pink">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">60%</div>
+                    </div>
+                </div>
+                <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
+                    <div class="progress grey">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">50%</div>
+                    </div>
+                </div>
+                <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
+                    <div class="progress purple">
+                <span class="progress-left">
+                    <span class="progress-bar"></span>
+                </span>
+                        <span class="progress-right">
+                    <span class="progress-bar"></span>
+                </span>
+                        <div class="progress-value">50%</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
-            <div class="progress blue">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-              <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-              <div class="progress-value">90%</div>
-            </div>
-          </div>
-          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
-            <div class="progress green">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-              <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-              <div class="progress-value">80%</div>
-            </div>
-          </div>
-          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
-            <div class="progress yellow">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-              <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-              <div class="progress-value">75%</div>
-            </div>
-          </div>
-        </div>
-        <div id="separador" class="row"></div>
-        <div class="row wow fadeIn">
-          <h3 class="subtitulos_skills col-4">CSS</h3>
-          <h3 class="subtitulos_skills col-4">Python</h3>
-          <h3 class="subtitulos_skills col-4">Javascript</h3>
-        </div>
-        <div class="row">
-          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
-            <div class="progress pink">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-              <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-              <div class="progress-value">60%</div>
-            </div>
-          </div>
-          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
-            <div class="progress grey">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-              <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-              <div class="progress-value">50%</div>
-            </div>
-          </div>
-          <div class="col-4 wow rotateIn" data-wow-duration="0.5s" data-wow-delay="1s">
-            <div class="progress purple">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-              <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-              <div class="progress-value">50%</div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <!--Sección proyectos-->
-  <div id="contenedor_projects" class="container-fluid">
+</div>
+<!--Sección proyectos-->
+<div id="contenedor_projects" class="container-fluid">
     <div id="jumbo_projects" class="jumbotron">
-      <h2 id="subtitulo_projects">Projects</h2>
-      <div class="container">
-        <div data-am-fadeshow="next-prev-navigation">
+        <h2 id="subtitulo_projects">Projects</h2>
+        <div class="container">
+            <div data-am-fadeshow="next-prev-navigation">
 
-          <!-- Radio -->
-          <input type="radio" name="css-fadeshow" id="slide-1"/>
-          <input type="radio" name="css-fadeshow" id="slide-2"/>
-          <input type="radio" name="css-fadeshow" id="slide-3"/>
-          <input type="radio" name="css-fadeshow" id="slide-4"/>
-          <input type="radio" name="css-fadeshow" id="slide-5"/>
+                <!-- Radio -->
+                <input type="radio" name="css-fadeshow" id="slide-1"/>
+                <input type="radio" name="css-fadeshow" id="slide-2"/>
+                <input type="radio" name="css-fadeshow" id="slide-3"/>
+                <input type="radio" name="css-fadeshow" id="slide-4"/>
+                <input type="radio" name="css-fadeshow" id="slide-5"/>
 
-          <!-- Slides -->
-          <div class="fs-slides">
-            <div id="imagen_musa" class="fs-slide">
-              <div class="info_projects">
-                <h1 class="titulos_carousel">MUSA</h1>
-                <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">Android
-                  application for contracting
-                  and purchasing the services that the colombian musicians offer.</p>
-                <a href="https://github.com/jsmillan10/Musa" class="btn btn-lg btn-secondary">Learn more</a>
-              </div>
-            </div>
-            <div id="imagen_ubung" class="fs-slide">
-              <div class="info_projects">
-                <h1 class="titulos_carousel">Ubung</h1>
-                <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">Android
-                  application for scheduling clients gym classes in a week and manage the stakeholders.</p>
-                <a href="https://github.com/jsmillan10/Ubung" class="btn btn-lg btn-secondary">Learn more</a>
-              </div>
-            </div>
-            <div id="imagen_world_archery" class="fs-slide">
-              <div class="info_projects">
-                <h1 class="titulos_carousel">World Archery Colombia</h1>
-                <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">Java
-                  application for processing, storing, visualize and validate data from institution clients.</p>
-                <a href="#contenedor_projects" class="btn btn-lg btn-secondary">Learn more</a>
-              </div>
-            </div>
-            <div id="imagen_yale" class="fs-slide">
-              <div class="info_projects">
-                <h1 class="titulos_carousel">Architack<br>Yale</h1>
-                <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">IoT
-                  software created for
-                  managing the Yale administrators system and clients locks. It also prevents the yale clients from
-                  having house alarms.</p>
-                <a href="https://github.com/jsmillan10/Arquisoft" class="btn btn-lg btn-secondary">Learn more</a>
-              </div>
-            </div>
-            <div id="imagen_pharmaid" class="fs-slide">
-              <div class="info_projects">
-                <h1 class="titulos_carousel">Pharmaid</h1>
-                <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">Medication
-                  Recommendation
-                  software created to support the doctors decisions with a program that gives the correct medicament
-                  prescription for an specific patient.</p>
-                <a href="https://github.com/jsmillan10/PharmAid-Final" class="btn btn-lg btn-secondary">Learn more</a>
-              </div>
-            </div>
-          </div>
+                <!-- Slides -->
+                <div class="fs-slides">
+                    <div id="imagen_musa" class="fs-slide">
+                        <div class="info_projects">
+                            <h1 class="titulos_carousel">MUSA</h1>
+                            <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">
+                                Android
+                                application for contracting
+                                and purchasing the services that the colombian musicians offer.</p>
+                            <a href="https://github.com/jsmillan10/Musa" class="btn btn-lg btn-secondary">Learn
+                                more</a>
+                        </div>
+                    </div>
+                    <div id="imagen_ubung" class="fs-slide">
+                        <div class="info_projects">
+                            <h1 class="titulos_carousel">Ubung</h1>
+                            <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">
+                                Android
+                                application for scheduling clients gym classes in a week and manage the
+                                stakeholders.</p>
+                            <a href="https://github.com/jsmillan10/Ubung" class="btn btn-lg btn-secondary">Learn
+                                more</a>
+                        </div>
+                    </div>
+                    <div id="imagen_world_archery" class="fs-slide">
+                        <div class="info_projects">
+                            <h1 class="titulos_carousel">World Archery Colombia</h1>
+                            <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">
+                                Java
+                                application for processing, storing, visualize and validate data from institution
+                                clients.</p>
+                            <a href="#contenedor_projects" class="btn btn-lg btn-secondary">Learn more</a>
+                        </div>
+                    </div>
+                    <div id="imagen_yale" class="fs-slide">
+                        <div class="info_projects">
+                            <h1 class="titulos_carousel">Architack<br>Yale</h1>
+                            <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">
+                                IoT
+                                software created for
+                                managing the Yale administrators system and clients locks. It also prevents the yale
+                                clients from
+                                having house alarms.</p>
+                            <a href="https://github.com/jsmillan10/Arquisoft" class="btn btn-lg btn-secondary">Learn
+                                more</a>
+                        </div>
+                    </div>
+                    <div id="imagen_pharmaid" class="fs-slide">
+                        <div class="info_projects">
+                            <h1 class="titulos_carousel">Pharmaid</h1>
+                            <p style="font-size: 2vw; font-weight: 100; margin-top: 0; font-family: 'Nunito', sans-serif">
+                                Medication
+                                Recommendation
+                                software created to support the doctors decisions with a program that gives the
+                                correct medicament
+                                prescription for an specific patient.</p>
+                            <a href="https://github.com/jsmillan10/PharmAid-Final" class="btn btn-lg btn-secondary">Learn
+                                more</a>
+                        </div>
+                    </div>
+                </div>
 
-          <!-- Quick Navigation -->
-          <div class="fs-quick-nav">
-            <label class="fs-quick-btn" for="slide-1"></label>
-            <label class="fs-quick-btn" for="slide-2"></label>
-            <label class="fs-quick-btn" for="slide-3"></label>
-            <label class="fs-quick-btn" for="slide-4"></label>
-            <label class="fs-quick-btn" for="slide-5"></label>
-          </div>
+                <!-- Quick Navigation -->
+                <div class="fs-quick-nav">
+                    <label class="fs-quick-btn" for="slide-1"></label>
+                    <label class="fs-quick-btn" for="slide-2"></label>
+                    <label class="fs-quick-btn" for="slide-3"></label>
+                    <label class="fs-quick-btn" for="slide-4"></label>
+                    <label class="fs-quick-btn" for="slide-5"></label>
+                </div>
 
-          <!-- Prev Navigation -->
-          <div class="fs-prev-nav">
-            <label class="fs-prev-btn" for="slide-1"></label>
-            <label class="fs-prev-btn" for="slide-2"></label>
-            <label class="fs-prev-btn" for="slide-3"></label>
-            <label class="fs-prev-btn" for="slide-4"></label>
-            <label class="fs-prev-btn" for="slide-5"></label>
-          </div>
+                <!-- Prev Navigation -->
+                <div class="fs-prev-nav">
+                    <label class="fs-prev-btn" for="slide-1"></label>
+                    <label class="fs-prev-btn" for="slide-2"></label>
+                    <label class="fs-prev-btn" for="slide-3"></label>
+                    <label class="fs-prev-btn" for="slide-4"></label>
+                    <label class="fs-prev-btn" for="slide-5"></label>
+                </div>
 
-          <!-- Next Navigation -->
-          <div class="fs-next-nav">
-            <label class="fs-next-btn" for="slide-1"></label>
-            <label class="fs-next-btn" for="slide-2"></label>
-            <label class="fs-next-btn" for="slide-3"></label>
-            <label class="fs-next-btn" for="slide-4"></label>
-            <label class="fs-next-btn" for="slide-5"></label>
-          </div>
+                <!-- Next Navigation -->
+                <div class="fs-next-nav">
+                    <label class="fs-next-btn" for="slide-1"></label>
+                    <label class="fs-next-btn" for="slide-2"></label>
+                    <label class="fs-next-btn" for="slide-3"></label>
+                    <label class="fs-next-btn" for="slide-4"></label>
+                    <label class="fs-next-btn" for="slide-5"></label>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!--Sección Contacto-->
-  <div id="contenedor_contact" class="container-fluid">
+</div>
+<!--Sección Contacto-->
+<div id="contenedor_contact" class="container-fluid">
     <div id="jumbo_contact" class="jumbotron">
-      <h2 id="h2_contact">Contact Me</h2>
-      <div class="row">
-        <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s" href="https://www.facebook.com/sebastian.millanlejarde">
-          <img class="hvr-icon" height="75%" width="75%" src="img/facebook.svg">
-        </a>
-        <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s" href="https://twitter.com/MillanSebas">
-          <img class="hvr-icon" height="75%" width="75%" src="img/twitter.svg">
-        </a>
-        <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s" href="https://github.com/jsmillan10">
-          <img class="hvr-icon" height="75%" width="75%" src="img/github.svg">
-        </a>
-        <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s" href="mailto:js.millan10@uniandes.edu.co?">
-          <img class="hvr-icon" height="75%" width="75%" src="img/mail.svg">
-        </a>
-        <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s" href="https://www.instagram.com/sebas1120">
-          <img class="hvr-icon" height="75%" width="75%" src="img/instagram.svg">
-        </a>
-        <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s" href="https://www.linkedin.com/in/sebasti%C3%A1n-millan/">
-          <img class="hvr-icon" height="75%" width="75%" src="img/linkedin.svg">
-        </a>
-      </div>
+        <h2 id="h2_contact">Contact Me</h2>
+        <div class="row">
+            <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s"
+               href="https://www.facebook.com/sebastian.millanlejarde">
+                <img class="hvr-icon" height="75%" width="75%" src="img/facebook.svg">
+            </a>
+            <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s"
+               href="https://twitter.com/MillanSebas">
+                <img class="hvr-icon" height="75%" width="75%" src="img/twitter.svg">
+            </a>
+            <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s"
+               href="https://github.com/jsmillan10">
+                <img class="hvr-icon" height="75%" width="75%" src="img/github.svg">
+            </a>
+            <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s"
+               href="mailto:js.millan10@uniandes.edu.co?">
+                <img class="hvr-icon" height="75%" width="75%" src="img/mail.svg">
+            </a>
+            <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s"
+               href="https://www.instagram.com/sebas1120">
+                <img class="hvr-icon" height="75%" width="75%" src="img/instagram.svg">
+            </a>
+            <a class="col-2 hvr-icon-pulse-grow wow flipInX" data-wow-delay="0.2s"
+               href="https://www.linkedin.com/in/sebasti%C3%A1n-millan/">
+                <img class="hvr-icon" height="75%" width="75%" src="img/linkedin.svg">
+            </a>
+        </div>
     </div>
     <div id="footer" class="row text-center">
-      <h6 class="col-12">© Juan Sebastián Millán L 2018. All rights reserved.</h6>
+        <h6 class="col-12">© Juan Sebastián Millán L 2018. All rights reserved.</h6>
     </div>
-  </div>
+</div>
 </div>
 </body>
 <script src="js/smooth-scroll.polyfills.min.js"></script>
@@ -511,6 +589,6 @@
     new WOW().init();
 </script>
 <script>
-  var scroll = new SmoothScroll('a[href*="#"]');
+    var scroll = new SmoothScroll('a[href*="#"]');
 </script>
 </html>

@@ -12,7 +12,7 @@ var jumbo = document.getElementById("jumbo_titulo");
 var navNombre = document.getElementById("nombre_nav");
 var medida = jumbo.offsetHeight;
 function myFunction() {
-  if ((window.pageYOffset+30)>medida)
+  if ((window.pageYOffset+30)>medida && window.innerWidth>768)
   {
     navNombre.classList.remove("invisible");
     navNombre.classList.add("wow fadeIn");
