@@ -914,18 +914,6 @@ body {
   margin: 0;
 }
 
-.container-time {
-  position: absolute;
-  top: 7rem;
-  bottom: 2rem;
-  left: 0;
-  right: 0;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  overflow: visible;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 #container
 {
   height: 600px;
@@ -944,21 +932,9 @@ body {
   height: 100%;
   overflow: hidden;
   white-space: nowrap;
-  left: 0!important;
 }
 
 @media only screen and (min-width: 768px) {
-  .container-time {
-    position: absolute;
-    top: 7rem;
-    bottom: 2rem;
-    left: 0;
-    right: 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    overflow: visible;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
 
   #container
   {
