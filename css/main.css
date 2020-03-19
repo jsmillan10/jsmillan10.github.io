@@ -149,6 +149,10 @@ a .nav-item {
         display: flex;
         justify-content: space-around;
     }
+
+    .skill-columna{
+        margin: 2rem;
+    }
 }
 
 /* Declaración de los Ids */
@@ -217,18 +221,29 @@ a .nav-item {
 
 #contenedor_skills {
     padding: 0px;
-    height: 700px;
+    background-color: #3d72b4;
 }
 
 #jumbo_skills {
     padding-right: 0px;
     padding-left: 0px;
-    background-color: #3d72b4;
-    padding-top: 50px;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+.skill-columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 #subtitulo_skills {
+    padding-top: 2rem;
     color: white;
 }
 
