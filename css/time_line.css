@@ -941,12 +941,10 @@ body {
 {
   background-color: #ddd;
   position: absolute;
-  top: 0px;
-  left: 0px;
   height: 100%;
-  width: auto;
-  overflow: scroll;
+  overflow: hidden;
   white-space: nowrap;
+  left: 0!important;
 }
 
 @media only screen and (min-width: 768px) {
