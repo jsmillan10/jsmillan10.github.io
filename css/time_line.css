@@ -3,31 +3,6 @@ body {
   background: #ddd;
 }
 
-#container
-{
-  height: 600px;
-  width: 100%;
-  background-color: #ddd;
-  overflow: hidden;
-  position: relative;
-  #overflow-x: scroll;
-  margin-top: 30px;
-  display: inline-block;
-}
-
-#thumbs
-{
-  background-color: #ddd;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: auto;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 30px 100px;
-}
-
 .history-block {
   height: 100%;
   width: 300px;
@@ -939,7 +914,7 @@ body {
   margin: 0;
 }
 
-.container {
+.container-time {
   position: absolute;
   top: 7rem;
   bottom: 2rem;
@@ -949,4 +924,66 @@ body {
   overflow: visible;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+#container
+{
+  height: 600px;
+  width: 100%;
+  background-color: #ddd;
+  overflow: scroll;
+  position: relative;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#thumbs
+{
+  background-color: #ddd;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: auto;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+@media only screen and (min-width: 768px) {
+  .container-time {
+    position: absolute;
+    top: 7rem;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #container
+  {
+    height: 600px;
+    width: 100%;
+    background-color: #ddd;
+    overflow: hidden;
+    position: relative;
+    #overflow-x: scroll;
+    margin-top: 30px;
+    display: inline-block;
+  }
+
+  #thumbs
+  {
+    background-color: #ddd;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: auto;
+    overflow: scroll;
+    white-space: nowrap;
+    padding: 30px 100px;
+  }
 }
