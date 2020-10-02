@@ -44,6 +44,15 @@ a .nav-item {
     color: white;
 }
 
+.navbar-toggler {
+    outline-color: white;
+}
+
+#menu-toggler:focus {
+    outline: 1px dotted;
+    outline: 3px auto rgba(255, 255, 255, 0.47);
+}
+
 .letra-blanca {
     color: white !important;
 }
