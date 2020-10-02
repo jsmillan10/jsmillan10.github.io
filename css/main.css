@@ -216,6 +216,7 @@ a .nav-item {
 #jumbo_titulo {
     background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100%;
+    margin-bottom: 0;
 }
 
 #contenedor_perfil {
@@ -265,7 +266,7 @@ a .nav-item {
 
 #contenedor_skills {
     padding: 0px;
-    background-color: #3d72b4;
+    background: linear-gradient(to right, #3d72b4, #525252);
 }
 
 #jumbo_skills {
